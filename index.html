@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="mobile.css"
+    />
+    <title>Portfolio 2022 | Welcome</title>
+  </head>
+  <body>
+    <header id="mainheader">
+      <nav id="navbar">
+        <div class="container">
+          <div class="logo">
+            <img src="logo.png" alt="" />
+          </div>
+          <ul class="nav">
+            <li><a href="#mainheader">Inicio</a></li>
+            <li><a href="#work">Lo que hacemos</a></li>
+            <li><a href="#about">A cerca de</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="showcase">
+        <div class="container">
+          <h1 class="display-1">full stack developer <br /></h1>
+          <a href="#work" class="btn btn-outline">My Work</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="work">
+      <div class="container">
+        <h2>Nos Dedicamos al</h2>
+        <div class="work-row">
+          <div class="work-row-box">
+            <h4>Diseño de Paginas WEb</h4>
+            <p>
+              Contar con una buena pagina web es clave para generar nuevos
+              clientes a través de los canales digitales. por ello es
+              fundamentar que tus nuevos clientes sientan que su experiencia fue
+              positiva, que la web cargó rápido, la información fue clara y que
+              el chat de atención resolvió sus consultas..
+            </p>
+            <a href="#" class="btn-link">Learn More</a>
+          </div>
+          <div class="work-row-box">
+            <h4>Facturación Electronica</h4>
+            <p>
+              Los comprobantes de pago electrónicos son el nombre que reciben
+              los documentos fiscales en formato electrónico tales como
+              facturas, boletas de ventas o notas de créditos en Perú. Un CPE es
+              todo documento regulado por la SUNAT que acredita la entrega de
+              bienes o servicios.
+            </p>
+            <a href="#" class="btn-link">Learn More</a>
+          </div>
+          <div class="work-row-box">
+            <h4>Desarrollo de Ecommerce</h4>
+            <p>
+              La pandemia ha gatillado el crecimiento del comercio electrónico
+              en el Perú a niveles históricos, incluso entrando categorías que
+              no tenían ninguna participación. Frente a este nuevo panorama ¿Qué
+              desafíos enfrenta el ecommerce y hacia dónde marcha el mercado?
+            </p>
+            <a href="#" class="btn-link">Learn More</a>
+          </div>
+        </div>
+        <div class="work-row">
+          <div class="work-row-box">
+            <h4>Marketing</h4>
+            <p>
+              Integrar todas las áreas del negocio, ser el ente articulador que
+              ayude a todas las áreas a mejorar su atención hacia el cliente
+              externo e interno (colaboradores) y optimizar la comunicación
+              entre ellas
+            </p>
+            <a href="#" class="btn-link">Learn More</a>
+          </div>
+          <div class="work-row-box">
+            <h4>Desarrollo de Sistemas</h4>
+            <p>
+              Organizar y dirigir proyectos informáticos, dar soluciones
+              integrales a los problemas organizacionales utilizando
+              herramientas actualizadas incluidas las open source (software
+              libre).
+            </p>
+            <a href="#" class="btn-link">Learn More</a>
+          </div>
+          <div class="work-row-box">
+            <h4>Seo</h4>
+            <p>
+              Un buen conocimiento del funcionamiento de los buscadores. Como es
+              lógico, un consultor SEO tiene que entender cómo funcionan el
+              rastreo y la indexación de páginas y cuáles son los factores que
+              influyen en el posicionamiento de las mismas.
+            </p>
+            <a href="#" class="btn-link">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <img src="dev.jpg" alt="" />
+      <div class="about-text">
+        <h2>Nos apasiona desarrollar codigo<br /></h2>
+        <p class="large">
+          Si aspiras a ser un excelente desarrollador web, o bien crees que ya
+          lo eres y puedes aportar algo más...
+        </p>
+        <a href="#" class="btn btn-outline">Learn More</a>
+      </div>
+      <img src="dev1.jpg" class="about-slim" alt="" />
+    </section>
+
+    <hr />
+    <!-- codigo Agregado -->
+
+    <div class="contact-section">
+      <div class="contact-heading">
+        <h2>Mantenerse en contacto</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container-contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7950.555023315781!2d-80.68131746290449!3d-4.893136562746645!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses!2spe!4v1661400047627!5m2!1ses!2spe"
+          width="550"
+          height="450"
+          style="border: 2"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="vertical"></div>
+        <style>
+          .vertical {
+            border-left: 10px solid aqua;
+            height: 500px;
+            position: absolute;
+            left: 48%;
+          }
+        </style>
+        <br />
+        <div class="contact-form">
+          <h4>Envíeme un mensaje...</h4>
+          <form class="form-group"  method="POST" data-netlifly="true">
+            <input type="text" placeholder="Escribe tu nombre" class="input" />
+            <input type="email" placeholder="Escribe tu correo" class="input" />
+            <textarea
+              name="message"
+              placeholder="Place your message here..."
+            ></textarea>
+            <button type="submit" class="btn-submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-info">
+          <a href="mailto:"
+            ><p>
+              juancarlos17.mf@gmail.com<br />
+              000 000 0000
+            </p></a
+          >
+        </div>
+        <div class="contact-logo">
+          <img src="logo.png" alt="" />
+          <br />
+          <h4>Soluciones<span>||Tecnologicas</span></h4>
+        </div>
+        <div class="contact-social">
+          <a href="#"><img src="icon-github.png" alt="" /></a>
+          <a href="#"><img src="icon-yt.png" alt="" /></a>
+          <a href="#"><img src="icon-twitter.png" alt="" /></a>
+          <a href="#"><img src="icon-ig.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <footer id="mainfooter">
+      <a
+        href="https://twitter.com/irimaya?ref_src=twsrc%5Etfw"
+        class="twitter-follow-button"
+        data-show-count="false"
+        >Follow @irimaya</a
+      >
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+    </footer>
+  </body>
+</html>
