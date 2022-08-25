@@ -150,9 +150,19 @@
         <br />
         <div class="contact-form">
           <h4>Envíeme un mensaje...</h4>
-          <form class="form-group" method="POST" data-netlifly="true">
-            <input type="text" placeholder="Escribe tu nombre" class="input" />
-            <input type="email" placeholder="Escribe tu correo" class="input" />
+          <form class="form-group" method="POST" data-netlify="true">
+            <input
+              type="text"
+              name="name"
+              placeholder="Escribe tu nombre"
+              class="input"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Escribe tu correo"
+              class="input"
+            />
             <textarea
               name="message"
               placeholder="Place your message here..."
@@ -190,8 +200,11 @@
     <hr />
 
     <footer id="mainfooter">
-      <a class="twitter-follow-button" data-show-count="false"
-        >Follow @irimaya</a
+      <a
+        href="https://twitter.com/juanca_mf_25"
+        class="twitter-follow-button"
+        data-show-count="false"
+        >Follow @juanca_mf_25</a
       >
       <script
         async
